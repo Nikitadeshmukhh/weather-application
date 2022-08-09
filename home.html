@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><i class="fa-solid fa-arrow-left"></i></i>Weather App</header>
+      <section class="input-part">
+        <p class="info-txt"></p>
+        <div class="content">
+          <input type="text" spellcheck="false" placeholder="Enter city name" required>
+          <div class="separator"></div>
+          <button>Get Device Location</button>
+        </div>
+      </section>
+      <section class="weather-part">
+        <img src="" alt="Weather Icon" />
+        
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">_ _</div>
+        <div class="location">
+          <i class='bx bx-map'></i>
+          <span>_, _</span>
+        </div>
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class='bx bxs-thermometer'></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class='bx bxs-droplet-half'></i>
+            <div class="details">
+              <span>_</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
